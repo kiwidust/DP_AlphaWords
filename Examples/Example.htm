@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>DP_AlphaWords: Examples</title>
+		<!--- Include Style Sheet --->
+	<link rel="stylesheet" href="Standard.css" type="text/css" media="screen" />
+	<script language="JavaScript" type="text/javascript" src="../DP_AlphaWords.js"></script>
+</head>
+<body>
+
+<div class="Article">
+<h1><span class="Smaller3">DP_AlphaWords:</span><br />Examples</h1>
+
+	<ul>	<li><a href="http://depressedpress.com/javascript-extensions/dp_alphawords/"><b>Documentation</b></a></li>
+			<li><a href="https://github.com/kiwidust/DP_AlphaWords"><b>GitHub Repository</b></a></li>
+	</ul>
+
+	<p>All of these examples assume that the library has been imported as noted in the Documentation.</p>
+
+	<h2>Simple Conversion</h2>
+	<div class="MainBody">
+		<p>Simple conversions just return the word or phrase associated with each character. The simplest method for converting a string is to accept all defaults. For example:</p>
+		<pre>
+document.write(dpAlphaWords('Alphabet'));
+		</pre>
+		<p>Results in:</p>
+		<script language="JavaScript" type="text/javascript">
+			document.write(dpAlphaWords('Alphabet'));
+		</script>
+	</div>
+
+	<h2>Formatting Example</h2>
+	<div class="MainBody">
+		<p>By using the formatting options you can ouput lists and other HTML.  Here we'll do the same conversion using the LAPD alphabet and create HTML list items for display:</p>
+		<pre>
+AWOut = dpAlphaWords("Alphabet", "LAPD", "Simple", "&lt;li&gt;", "&lt;/li&gt;");
+document.write("&lt;ul&gt;");
+document.write(AWOut);
+document.write("&lt;/ul&gt;");
+		</pre>
+		<p>Results in the following list:</p>
+		<script language="JavaScript" type="text/javascript">
+			AWOut = dpAlphaWords("Alphabet", "LAPD", "Simple", "<li>", "</li>");
+			document.write("<ul>");
+			document.write(AWOut);
+			document.write("</ul>");
+		</script>
+	</div>
+
+	<h2>Array Conversion</h2>
+	<div class="MainBody">
+		<p>Using the Array type provides you with complete control over display and usage. The output from this style is an array where each element is an object representing information about a single character of the input string. Using the Array style is more difficult but useful when the simple or verbose styles do not meet your needs.</p>
+		<p>The following table present all the values returned in the Array style:</p>
+		<script language="JavaScript" type="text/javascript">
+			AWInfo = dpAlphaWords("Alphabet", "LAPD", "Array");
+			document.write("<table border='1' cellpadding='4'>");
+				document.write("<tr>");
+				document.write("<td>Char</td>");
+				document.write("<td>Code</td>");
+				document.write("<td>Trans</td>");
+				document.write("<td>Type</td>");
+				document.write("</tr>");
+			for ( Cnt = 0; Cnt < AWInfo.length; Cnt++ ) {
+				document.write("<tr>");
+				document.write("<td>" + AWInfo[Cnt].Char + "</td>");
+				document.write("<td>" + AWInfo[Cnt].Code + "</td>");
+				document.write("<td>" + AWInfo[Cnt].Trans + "</td>");
+				document.write("<td>" + AWInfo[Cnt].Type + "</td>");
+				document.write("</tr>");
+			};
+			document.write("</table>");
+		</script>
+	</div>
+
+</div>
+
+</body>
+</html>
