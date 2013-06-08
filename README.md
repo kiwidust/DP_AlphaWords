@@ -2,8 +2,10 @@
 
 <ul>	<li>Author: Jim Davis, the Depressed Press</li>
 	<li>Date: September 9, 2005</li>
+	<li>Documentation: http://depressedpress.com/javascript-extensions/dp_alphawords/</li>
+	<li>Legal: http://depressedpress.com/about/source-code-policy/</li>
 	<li>Contact: http://depressedpress.com/about/contact-me/</li>
-	<li>Website: http://depressedpress.com/javascript-extensions/</li>
+	<li>Other Components: http://depressedpress.com/javascript-extensions/</li>
 </ul>
 
 <p>The DP_AlphaWords library provides a simple method for converting arbitrary text to a list of words which help to disambiguate spelling.  For example the word "CAT" can be translated to "Charlie Alfa Tango".</p>
@@ -27,15 +29,4 @@
 	</li>
 </ul>
 
-
-<p>The extension has been tested successfully on Internet Explorer 6+, Firefox 1+ and Opera 9+.</p>
-
-
-<h2>Documentation</h2>
-
-<p>Full documentation, usage information and update history is available at the <a href="http://depressedpress.com/javascript-extensions/dp_alphawords/">DepressedPress Website</a>.</p>
-
-
-<h2>Legal</h2>
-
-<p>This component requires a JavaScript (ECMAScript) 1.3 (or better) run-time environment.  All downloads and code are covered by the <a href="http://depressedpress.com/about/source-code-policy/">Depressed Press Source Code Policy</a> and the BSD Open Source License.</p>
+<p>This component requires a JavaScript (ECMAScript) 1.3 (or better) run-time environment and has been tested successfully on Internet Explorer 6+, Firefox 1+ and Opera 9+.</p>
