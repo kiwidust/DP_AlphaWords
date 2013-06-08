@@ -8,9 +8,7 @@
 </ul>
 
 <p>The DP_AlphaWords library provides a simple method for converting arbitrary text to a list of words which help to disambiguate spelling.  For example the word "CAT" can be translated to "Charlie Alfa Tango".</p>
-
 <p>This translation is useful when communicating information where spelling is crucial (computer passwords, names, license plate numbers, etc) over the phone or radio.  It may also be useful when presenting potentially ambigious information such as randomly generated user names or passwords.</p>
-
 <ul>	<li>The function can output a simple list or can output a verbose script suitable for reading.  The verbose output support several formatting options.</li>
 	<li>The function supports most typable english characters and will translate them to their names.  For example the character "}" will be translated to "Right Curly Brace".</li>
 	<li>The function supports several alphabet standards.
@@ -27,7 +25,6 @@
 		</ul>
 	</li>
 </ul>
-
 <p>This component requires a JavaScript (ECMAScript) 1.3 (or better) run-time environment and has been tested successfully on Internet Explorer 6+, Firefox 1+ and Opera 9+.</p>
 
 <blockquote style="background: #dedede;">
