@@ -31,7 +31,7 @@
 <p>This component requires a JavaScript (ECMAScript) 1.3 (or better) run-time environment and has been tested successfully on Internet Explorer 6+, Firefox 1+ and Opera 9+.</p>
 
 <blockquote style="background: #dedede;">
-Copyright (c) 1996-2013, The Depressed Press of Boston (depressedpress.com)
+Copyright (c) 1996-2013, The Depressed Press (depressedpress.com)
 <br />
 All rights reserved.
 <br />
