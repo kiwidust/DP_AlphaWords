@@ -2,7 +2,7 @@
 
 <ul>	<li>Author: Jim Davis, the Depressed Press</li>
 	<li>Date: September 9, 2005</li>
-	<li>Documentation: http://depressedpress.com/javascript-extensions/dp_alphawords/</li>
+	<li><b>Documentation</b>: http://depressedpress.com/javascript-extensions/dp_alphawords/</li>
 	<li>Legal: http://depressedpress.com/about/source-code-policy/</li>
 	<li>Contact: http://depressedpress.com/about/contact-me/</li>
 	<li>Other Components: http://depressedpress.com/javascript-extensions/</li>
